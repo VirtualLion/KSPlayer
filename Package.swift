@@ -39,6 +39,7 @@ let package = Package(
     ]
 )
 
+
 package.dependencies += [
     .package(name: "_FFmpegKit", path: "FFmpegKit"),
 ]
