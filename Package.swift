@@ -41,7 +41,7 @@ let package = Package(
 
 
 package.dependencies += [
-    .package(name: "_FFmpegKit", path: "FFmpegKit"),
+    .package(url: "https://github.com/VirtualLion/_FFmpegKit.git", branch: "main")
 ]
 
 //var ffmpegKitPath = FileManager.default.currentDirectoryPath + "/FFmpegKit"
